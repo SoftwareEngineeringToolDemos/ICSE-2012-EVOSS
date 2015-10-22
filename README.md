@@ -1,14 +1,11 @@
 This repository is contains information related to the tool EVOSS presented in ICSE, 2012 . Link to paper : http://dl.acm.org/citation.cfm?id=2337433
 
 This repository is not the original repository for this tool. Here are some links to the original project:
+* http://code.google.com/p/ mancoosi-uda/source/checkout
+* https://github.com/davidediruscio/evoss
+* [A video of the tool](http://www.di.univaq.it/diruscio/sites/evoss/docs/video.htm)
 
-http://code.google.com/p/ mancoosi-uda/source/checkout
-
-This repository is not the original repository for this tool. Here are some links to the original project:
-
-https://github.com/davidediruscio/evoss
-
-This repository was constructed by Esha Sharma under the supervision of Emerson Murphy-Hill. Thanks to Apoorv Mahajan , Pankti Desai , Dheeraj Shetty for their help in establishing this repository.
+This repository was constructed by [Esha Sharma](https://github.com/eshasharma) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Apoorv Mahajan , Pankti Desai , Dheeraj Shetty for their help in establishing this repository.
 
 
 
