@@ -1,6 +1,6 @@
 This repository is contains information related to the tool EVOSS presented in ICSE, 2012 . Link to paper : http://dl.acm.org/citation.cfm?id=2337433
 
-This repository is not the original repository for this tool. Here are some links to the original project:
+This repository _is not_ the original repository for this tool. Here are some links to the original project:
 * http://code.google.com/p/ mancoosi-uda/source/checkout
 * https://github.com/davidediruscio/evoss
 * [A video of the tool](http://www.di.univaq.it/diruscio/sites/evoss/docs/video.htm)
