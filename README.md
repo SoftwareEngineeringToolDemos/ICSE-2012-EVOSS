@@ -1,11 +1,11 @@
-This repository contains information related to the tool EVOSS presented in ICSE, 2012. The tool was originally presented in [this paper](http://dl.acm.org/citation.cfm?id=2337433)
+This repository contains information related to the tool EVOSS presented in ICSE, 2012. The tool was originally presented in [this paper](http://dl.acm.org/citation.cfm?id=2337433).
 
 This repository _is not_ the original repository for this tool. Here are some links to the original project:
 * [The Official Project Page, including source code](http://evoss.di.univaq.it/)
 * [A Video of the Tool](http://www.di.univaq.it/diruscio/sites/evoss/docs/video.htm)
 
 In this repository, for EVOSS you will find:
-* :white_check_mark: [Source code]( http://code.google.com/p/ mancoosi-uda/source/checkout) (available)
+* :white_check_mark: [Source code](https://code.google.com/p/mancoosi-uda/source/checkout) (available)
 * :white_check_mark: [The original tool](https://code.google.com/p/mancoosi-uda/downloads/detail?name=all-evoss.tar.gz&can=2&q=) (available)
 
 This repository was constructed by [Pankti Desai](https://github.com/panktidesai) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Davide Di Ruscio, Patrizio Pelliccione and Alfonso Pierantonio for their help in establishing this repository.
