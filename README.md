@@ -1,11 +1,14 @@
-This repository is contains information related to the tool EVOSS presented in ICSE, 2012 . Link to paper : http://dl.acm.org/citation.cfm?id=2337433
+This repository contains information related to the tool EVOSS presented in ICSE, 2012. The tool was originally presented in [this paper](http://dl.acm.org/citation.cfm?id=2337433)
 
 This repository _is not_ the original repository for this tool. Here are some links to the original project:
-* http://code.google.com/p/ mancoosi-uda/source/checkout
-* https://github.com/davidediruscio/evoss
-* [A video of the tool](http://www.di.univaq.it/diruscio/sites/evoss/docs/video.htm)
+* [The Official Project Page, including source code](http://evoss.di.univaq.it/)
+* [A Video of the Tool](http://www.di.univaq.it/diruscio/sites/evoss/docs/video.htm)
 
-This repository was constructed by [Esha Sharma](https://github.com/eshasharma) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Apoorv Mahajan , Pankti Desai , Dheeraj Shetty for their help in establishing this repository.
+In this repository, for EVOSS you will find:
+* :white_check_mark: [Source code]( http://code.google.com/p/ mancoosi-uda/source/checkout) (available)
+* :white_check_mark: [The original tool](https://code.google.com/p/mancoosi-uda/downloads/detail?name=all-evoss.tar.gz&can=2&q=) (available)
+
+This repository was constructed by [Pankti Desai](https://github.com/panktidesai) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Davide Di Ruscio, Patrizio Pelliccione and Alfonso Pierantonio for their help in establishing this repository.
 
 
 
