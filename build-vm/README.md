@@ -7,7 +7,7 @@
 
 #Note
 * Please wait until "vagrant up" command has completed successfully before using the virtual machine.
-* In case login credentials are required:
+* VM login details if required:</br>
 User     : vagrant</br>
 Password : vagrant 
 
