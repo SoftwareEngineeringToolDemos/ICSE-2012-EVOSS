@@ -1,19 +1,20 @@
-###Instructions to set up Virtual Machine using Vagrant
+#Instructions to set up Virtual Machine using Vagrant
 1. Download and Install [Virtual Box](https://www.virtualbox.org/wiki/Downloads) on the host machine.
 2. Download and Install [Vagrant](https://www.vagrantup.com/downloads.html) on the host machine.
 3. Create a new directory on your machine and download this [Vagrantfile](https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-EVOSS/blob/master/build-vm/Vagrantfile) into that directory.
 4. Navigate to the directory and run the command "vagrant up".
 5. The command "vagrant up" will create a Ubuntu (64-bit) virtual machine with Java 8 installed in it.
-6. Please wait until "vagrant up" command has completed successfully and then you can use the virtual machine.
 
-###Credentials for VM:</br>
+#Note
+* Please wait until "vagrant up" command has completed successfully before using the virtual machine.
+* In case login credentials are required:
 User     : vagrant</br>
 Password : vagrant 
 
-### Acknowledgments
+# Acknowledgments
 * Used vagrant virtual box image of [ubuntu-trusty64-gui by chad-thompson](https://atlas.hashicorp.com/chad-thompson/boxes/ubuntu-trusty64-gui).
 
-###References
+#References
 * https://docs.vagrantup.com/v2/getting-started/index.html
 * https://docs.vagrantup.com/v2/provisioning/shell.html 
 * https://docs.vagrantup.com/v2/virtualbox/configuration.html
