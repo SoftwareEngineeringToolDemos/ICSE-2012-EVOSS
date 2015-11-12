@@ -1,4 +1,4 @@
-#Instructions to set up Virtual Machine using Vagrant
+#Steps to create Virtual Machine using Vagrant
 1. Download and Install [Virtual Box](https://www.virtualbox.org/wiki/Downloads) on the host machine.
 2. Download and Install [Vagrant](https://www.vagrantup.com/downloads.html) on the host machine.
 3. Create a new directory on your machine and download this [Vagrantfile](https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-EVOSS/blob/master/build-vm/Vagrantfile) into that directory.
