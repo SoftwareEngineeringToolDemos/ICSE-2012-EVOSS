@@ -8,9 +8,11 @@
 
 #Note
 * Please wait until "vagrant up" command has completed successfully before using the virtual machine.
+
 * VM login details if required:</br>
 User     : vagrant</br>
 Password : vagrant
+
 * Run the command:
 ~~~
 java -version
