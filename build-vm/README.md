@@ -10,7 +10,17 @@
 * Please wait until "vagrant up" command has completed successfully before using the virtual machine.
 * VM login details if required:</br>
 User     : vagrant</br>
-Password : vagrant 
+Password : vagrant
+* Run the command:
+~~~
+java -version
+~~~
+ to verify the installation of JDK 8 on the VM. You should expect to see an output similar to this:
+~~~
+java version "1.8.0_66"
+Java(TM) SE Runtime Environment (build 1.8.0_66-b17)
+Java HotSpot(TM) 64-Bit Server VM (build 25.66-b17, mixed mode)
+~~~
 
 # Acknowledgments
 * Used vagrant virtual box image of [ubuntu-trusty64-gui by chad-thompson](https://atlas.hashicorp.com/chad-thompson/boxes/ubuntu-trusty64-gui).
