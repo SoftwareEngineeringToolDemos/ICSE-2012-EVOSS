@@ -1,0 +1,5 @@
+Licences for softwares in the VM : 
+1. EVOSS : The tool in this virtual machine is from this paper : http://mancoosi-uda.googlecode.com/files/scp_draft.pdf authored by Roberto Di Cosmo, Davide Di Ruscio , Patrizio Pelliccione , Alfonso Pierantonio and Stefano Zacchiroli .All resources for this tool are given here : https://code.google.com/p/mancoosi-uda/downloads/list 
+The author has given permission to redistribute an executable or source code version of the tool given that a reference to the main tool and paper is contained. 
+2. JRE 8 : The Java™ Platform, Standard Edition Runtime Environment (JRE) is intended for software developers and vendors to redistribute with their applications.(quoted from the JRE 8 Readme) 
+3. Ubuntu 14.04 : All of the application software installed by default is free software. In addition, we install some hardware drivers that are available only in binary format, but such packages are clearly marked in the restricted component.(quoted from http://www.ubuntu.com/about/about-ubuntu/licensing)
