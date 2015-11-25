@@ -12,9 +12,9 @@ the upgrade will be successful or not . Steps to follow :
 
 cd /home/mancoosi/mancoosi/evoss/simulator
 
-java -jar upgenerator.jar "apt-get install --simulate amule" upgradePlan.xml
+sudo java -jar upgenerator.jar "apt-get install --simulate amule" upgradePlan.xml
 
-java -jar simulator.jar
+sudo java -jar simulator.jar
 
 You will see a simulation succeeded message.
 
