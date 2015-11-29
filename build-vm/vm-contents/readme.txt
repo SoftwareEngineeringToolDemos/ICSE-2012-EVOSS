@@ -1,4 +1,4 @@
-Link to youtube video :  https://youtu.be/FkngAzdoPRI 
+Link to youtube video :  https://www.youtube.com/watch?v=FkngAzdoPRI
 Please refer installation.txt before running these. If at any point you get permission denied and need to do a sudo , the password is "vagrant"
 
 There are two modules in this tool : 
