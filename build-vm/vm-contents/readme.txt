@@ -19,7 +19,7 @@ and checks for potential faults . Steps to follow :
 	1. cd /home/mancoosi/mancoosi/evoss/faultdetector/fdserver
 	2. java -jar fdserver.jar
 
-you will see a message : " listening for connection request on port ...." 
+You will see a message : " listening for connection request on port ...." 
 
 Open a new terminal and run these commands: 
 
