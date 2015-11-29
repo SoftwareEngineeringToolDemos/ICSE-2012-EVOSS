@@ -9,7 +9,7 @@ Vagrant.configure(2) do |config|
   # Vagrant provider settings	
   config.vm.provider "virtualbox" do |vb|
     vb.gui = true
-    vb.name = "Anson-prdesai2-Evoss"
+    vb.name = "prdesai2-Evoss"
     vb.memory = "1024"
     #Disable USB
     vb.customize ["modifyvm", :id, "--usb", "off"]
@@ -24,6 +24,12 @@ Vagrant.configure(2) do |config|
 	 sudo apt-get update
 	 echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections
 	 sudo apt-get install -y oracle-java8-installer
+	 
+	 # Install git utility
+ 	 sudo apt-get install -y git
+	 
+	 #Adobe Flash player required in order to view the YouTube video
+     sudo apt-get install flashplugin-installer
 	
 	 # Download the Evoss file
 	 wget https://mancoosi-uda.googlecode.com/files/all-evoss.tar.gz -O /home/vagrant/Desktop/all-evoss.tar.gz
@@ -48,19 +54,25 @@ Vagrant.configure(2) do |config|
 	 cd ../pkginject
 	 java -jar pkginject.jar -p libupnp6 1:1.6.17-1.2 amd64
 	 
+	 # clone items to desktop
+	 git clone https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-EVOSS.git /home/vagrant/Desktop/ICSE-2012-EVOSS
+	 sudo chmod a+rwx /home/vagrant/Desktop/ICSE-2012-EVOSS
+	 sudo mv /home/vagrant/Desktop/ICSE-2012-EVOSS/build-vm/vm-contents/* /home/vagrant/Desktop/
+
 	 #In order to open the terminal on boot, place the .desktop file in the ~/.config folder
       	 cd /home/vagrant/.config
       	 mkdir autostart
       	 cd autostart
       	 touch gnome-terminal.desktop
       	 printf "[Desktop Entry]\n Type=Application\n Name=Terminal\n Exec=gnome-terminal \nNoDisplay=false" >> gnome-terminal.desktop
+		 
+	 #Disable the screen-lock
+      sudo wget https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/ICSE-2012-EVOSS/master/build-vm/vm-contents/DisableLock.desktop
+      sudo chmod 777 /home/vagrant/.config/autostart/DisableLock.desktop
 	  
-	 # Make sure the terminal opens up at the correct location- "/home/mancoosi/mancoosi/evoss/simulator" for ease of user
+	 # Open the terminal at the correct location- "/home/mancoosi/mancoosi/evoss/simulator"
       	 printf "cd /home/mancoosi/mancoosi/evoss/simulator" >> /home/vagrant/.bashrc
       	 printf "\n echo *****Commandline Interface for Evoss*****" >> /home/vagrant/.bashrc
-	  
-	 # Prevent screen lock
-	 sudo gsettings set org.gnome.desktop.screensaver lock-enabled false
       
 	 # Remove extra applications from the launcher
       	 sudo rm -f "/usr/share/applications/ubuntu-amazon-default.desktop"
