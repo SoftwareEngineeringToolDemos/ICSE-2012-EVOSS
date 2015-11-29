@@ -1,44 +1,34 @@
 INSTALLATION and SETUP:
 
-Download the zip file from https://code.google.com/p/mancoosi-uda/downloads/detail?name=all-evoss.tar.gz&can=2&q=
+1) Download the zip file from https://code.google.com/p/mancoosi-uda/downloads/detail?name=all-evoss.tar.gz&can=2&q=
 
-On the terminal : 
+2) On the terminal, create a folder in your home directory:
+   mkdir -p /home/mancoosi/mancoosi
 
-create a folder in your home directory:
+3) Copy evoss to that location from the current directory:
+   sudo scp all-evoss.tar.gz /home/mancoosi/mancoosi/evoss.tar.gz
 
-mkdir -p /home/mancoosi/mancoosi
+4) Go to mancoosi directory:
+   cd /home/mancoosi/mancoosi
 
-copy evoss to that location from the current directory:
+5) Extract the tar:
+   tar -xvzf evoss.tar.gz
 
-sudo scp all-evoss.tar.gz /home/mancoosi/mancoosi/evoss.tar.gz
+6) Install libupnp6:
+   sudo apt-get install libupnp6
 
-go to mancoosi directory:
+7) Go to cd /home/mancoosi/mancoosi/evoss and run following commands : 
 
-cd /home/mancoosi/mancoosi
+	1. cd modelInjectors/cfginject
 
-extract the tar:
+	2. java -jar cfginject.jar 
 
-tar -xvzf evoss.tar.gz
+	3. java -jar cfginject.jar
 
-Install libupnp6:
+	(second time you will see a synchronization completed message) 
 
-sudo apt-get install libupnp6
+	4. cd ../pkginject
 
-Go to cd /home/mancoosi/mancoosi/evoss 
-
-Run these commands : 
-
-cd modelInjectors/cfginject
-
-java -jar cfginject.jar 
-
-java -jar cfginject.jar
-
-(second time you will see a synchronization completed message) 
-
-cd ../pkginject
-
-then run this command : 
-
-java -jar pkginject.jar -p libupnp6 1:1.6.17.2 amd64
+	5. java -jar pkginject.jar -p libupnp6 1:1.6.17-1.2 amd64
+	Note : 1:1.6.17-1.2 is the current version of libupnp6. If the version of the installed libupnp6 is different, replace 1:1.6.17-1.2 with the installed version number.
 
