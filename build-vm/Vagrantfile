@@ -9,9 +9,9 @@ Vagrant.configure(2) do |config|
   # Vagrant provider settings	
   config.vm.provider "virtualbox" do |vb|
     vb.gui = true
-	vb.name = "prdesai2-Evoss"
+    vb.name = "Anson-prdesai2-Evoss"
     vb.memory = "1024"
-	#Disable USB
+    #Disable USB
     vb.customize ["modifyvm", :id, "--usb", "off"]
     vb.customize ["modifyvm", :id, "--usbehci", "off"]
   end
@@ -48,26 +48,26 @@ Vagrant.configure(2) do |config|
 	 cd ../pkginject
 	 java -jar pkginject.jar -p libupnp6 1:1.6.17-1.2 amd64
 	 
-	  #In order to open the terminal on boot, place the .desktop file in the ~/.config folder
-      cd /home/vagrant/.config
-      mkdir autostart
-      cd autostart
-      touch gnome-terminal.desktop
-      printf "[Desktop Entry]\n Type=Application\n Name=Terminal\n Exec=gnome-terminal \nNoDisplay=false" >> gnome-terminal.desktop
+	 #In order to open the terminal on boot, place the .desktop file in the ~/.config folder
+      	 cd /home/vagrant/.config
+      	 mkdir autostart
+      	 cd autostart
+      	 touch gnome-terminal.desktop
+      	 printf "[Desktop Entry]\n Type=Application\n Name=Terminal\n Exec=gnome-terminal \nNoDisplay=false" >> gnome-terminal.desktop
 	  
-	  # Make sure the terminal opens up at the correct location- "/home/mancoosi/mancoosi/evoss/simulator" for ease of user
-      printf "cd /home/mancoosi/mancoosi/evoss/simulator" >> /home/vagrant/.bashrc
-      printf "\n echo *****Commandline Interface for Evoss*****" >> /home/vagrant/.bashrc
+	 # Make sure the terminal opens up at the correct location- "/home/mancoosi/mancoosi/evoss/simulator" for ease of user
+      	 printf "cd /home/mancoosi/mancoosi/evoss/simulator" >> /home/vagrant/.bashrc
+      	 printf "\n echo *****Commandline Interface for Evoss*****" >> /home/vagrant/.bashrc
 	  
-	  # Prevent screen lock
-	  sudo gsettings set org.gnome.desktop.screensaver lock-enabled false
+	 # Prevent screen lock
+	 sudo gsettings set org.gnome.desktop.screensaver lock-enabled false
       
 	 # Remove extra applications from the launcher
-      sudo rm -f "/usr/share/applications/ubuntu-amazon-default.desktop"
-      sudo rm -f "/usr/share/applications/ubuntu-software-center.desktop"
+      	 sudo rm -f "/usr/share/applications/ubuntu-amazon-default.desktop"
+      	 sudo rm -f "/usr/share/applications/ubuntu-software-center.desktop"
 	  
-	  #Reboot the system
-      sudo reboot
+	 #Reboot the system
+      	 sudo reboot
 	  
    SHELL
 end
