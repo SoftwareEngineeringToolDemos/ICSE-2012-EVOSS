@@ -5,9 +5,9 @@ This repository _is not_ the original repository for this tool. Here are some li
 * [A Video of the Tool](http://www.di.univaq.it/diruscio/sites/evoss/docs/video.htm)
 
 In this repository, for EVOSS you will find:
-* :white_check_mark: [Source code](https://code.google.com/p/mancoosi-uda/source/checkout) (available)
-* :white_check_mark: [The original tool](https://code.google.com/p/mancoosi-uda/downloads/detail?name=all-evoss.tar.gz&can=2&q=) (available)
-* :white_check_mark: [Virtual machine containing tool](https://drive.google.com/a/ncsu.edu/file/d/0B65xmhhmheYKUHo4ZGc1ajVlYkU/view) (available)
+* :white_check_mark: [Source code](.) (available)
+* :x: Executable tool (not available)
+* :white_check_mark: [Virtual machine containing tool](http://go.ncsu.edu/SE-tool-VMs)
 
 This repository was constructed by [Pankti Desai](https://github.com/panktidesai) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Davide Di Ruscio, Patrizio Pelliccione and Alfonso Pierantonio for their help in establishing this repository.
 
